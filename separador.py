@@ -1,6 +1,4 @@
 from tkinter import filedialog
-import time
-
 
 def separar(linhas: int):
     file = filedialog.askopenfilename()
@@ -36,5 +34,3 @@ separar(108)
 #     time.sleep(2)
 # except Exception as e:
 #     print('Erro: ', e)
-#     print('Mostre ao T.I')
-#     time.sleep(20)
